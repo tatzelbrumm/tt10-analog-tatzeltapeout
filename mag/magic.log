@@ -1,0 +1,62 @@
+Magic 8.3 revision 472 - Compiled on Fr 12. Apr 08:01:33 CEST 2024.
+Starting magic under Tcl interpreter
+Using Tk console window
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+New windows will not have a title caption.
+New windows will not have scroll bars.
+New windows will not have a border.
+Using technology "sky130A", version 1.0.471-0-g97d0844
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:   0.010 x 0.010   ( 0.000,  0.000), ( 0.010,  0.010)  0.000     
+lambda:     1.00 x 1.00    (  0.00,  0.00 ), (  1.00,  1.00 )  1.00      
+internal:      2 x 2       (     0,  0    ), (     2,  2    )  4         
+Main console display active (Tcl8.6.10 / Tk8.6.10)
+% cd /home/cmaier/EDA/TinyTapeout/designs/tt10-analog-tatzeltapeout/mag
+% source magic_init_project.tcl
+Reading DEF data from file tt_analog_2x2_3v3.def.
+This action cannot be undone.
+  Processed 0 subcell instances total.
+  Processed 51 pins total.
+  Processed 2 special nets total.
+  Processed 51 nets total.
+DEF read: Processed 365 lines.
+Drawing power stripe VDPWR at 1um
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.000 x 215.760  ( 1.000,  5.000), ( 1.000,  220.760)
+lambda:     0.00 x 21576.00  ( 100.00,  500.00), ( 100.00,  22076.00)
+internal:      0 x 43152   (   200,  1000 ), (   200,  44152)
+Moving label "VDPWR" from space to metal4 in cell tt_um_analog_example.
+Drawing power stripe VGND at 4um
+Loading DRC CIF style.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.000 x 215.760  ( 4.000,  5.000), ( 4.000,  220.760)
+lambda:     0.00 x 21576.00  ( 400.00,  500.00), ( 400.00,  22076.00)
+internal:      0 x 43152   (   800,  1000 ), (   800,  44152)
+Moving label "VGND" from space to metal4 in cell tt_um_analog_example.
+Drawing power stripe VAPRoot cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.000 x 215.760  ( 7.000,  5.000), ( 7.000,  220.760)
+lambda:     0.00 x 21576.00  ( 700.00,  500.00), ( 700.00,  22076.00)
+internal:      0 x 43152   (  1400,  1000 ), (  1400,  44152)
+Moving label "VAPWR" from space to metal4 in cell tt_um_analog_example.
+   Generating output for cell tt_um_analog_example
+Generating LEF output lef/tt_um_analog_example.lef for cell tt_um_analog_example:
+Diagnostic:  Write LEF header for cell tt_um_analog_example
+Diagnostic:  Writing LEF output for cell tt_um_analog_example
+Diagnostic:  Scale value is 0.005000
+WR at 7um
+% 
