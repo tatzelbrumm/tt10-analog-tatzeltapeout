@@ -1,0 +1,31 @@
+﻿2025-02-16T15:46:56.2811949Z ##[group]Pull down action image 'mikefarah/yq:4-githubaction'
+2025-02-16T15:46:56.3005521Z ##[command]/usr/bin/docker pull mikefarah/yq:4-githubaction
+2025-02-16T15:46:56.6094366Z 4-githubaction: Pulling from mikefarah/yq
+2025-02-16T15:46:56.6823703Z 1f3e46996e29: Pulling fs layer
+2025-02-16T15:46:56.6826661Z 67048b9be8fc: Pulling fs layer
+2025-02-16T15:46:56.6828974Z e41e2357b13d: Pulling fs layer
+2025-02-16T15:46:56.6830165Z 947107566089: Pulling fs layer
+2025-02-16T15:46:56.6831210Z 3be10397fbe8: Pulling fs layer
+2025-02-16T15:46:56.6832260Z f95ba98632ce: Pulling fs layer
+2025-02-16T15:46:56.6833352Z 947107566089: Waiting
+2025-02-16T15:46:56.6834251Z 3be10397fbe8: Waiting
+2025-02-16T15:46:56.6835465Z f95ba98632ce: Waiting
+2025-02-16T15:46:56.7498721Z e41e2357b13d: Verifying Checksum
+2025-02-16T15:46:56.7501300Z e41e2357b13d: Download complete
+2025-02-16T15:46:56.7924856Z 67048b9be8fc: Verifying Checksum
+2025-02-16T15:46:56.7928777Z 67048b9be8fc: Download complete
+2025-02-16T15:46:56.8013920Z 1f3e46996e29: Download complete
+2025-02-16T15:46:56.8272209Z 947107566089: Download complete
+2025-02-16T15:46:56.8577583Z 3be10397fbe8: Verifying Checksum
+2025-02-16T15:46:56.8579604Z 3be10397fbe8: Download complete
+2025-02-16T15:46:56.8595754Z f95ba98632ce: Verifying Checksum
+2025-02-16T15:46:56.9086351Z 1f3e46996e29: Pull complete
+2025-02-16T15:46:56.9933064Z 67048b9be8fc: Pull complete
+2025-02-16T15:46:57.0115334Z e41e2357b13d: Pull complete
+2025-02-16T15:46:57.0251619Z 947107566089: Pull complete
+2025-02-16T15:46:57.0354650Z 3be10397fbe8: Pull complete
+2025-02-16T15:46:57.0451933Z f95ba98632ce: Pull complete
+2025-02-16T15:46:57.0494126Z Digest: sha256:2ca9d74f8d4dedcc4498726e9a471a9f4288efb0ff3abf4034a8214baf074e52
+2025-02-16T15:46:57.0509108Z Status: Downloaded newer image for mikefarah/yq:4-githubaction
+2025-02-16T15:46:57.0518258Z docker.io/mikefarah/yq:4-githubaction
+2025-02-16T15:46:57.0551519Z ##[endgroup]

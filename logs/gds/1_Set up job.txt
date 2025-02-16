@@ -1,0 +1,50 @@
+﻿2025-02-16T15:46:54.3979494Z Current runner version: '2.322.0'
+2025-02-16T15:46:54.4006798Z ##[group]Operating System
+2025-02-16T15:46:54.4008227Z Ubuntu
+2025-02-16T15:46:54.4008898Z 24.04.1
+2025-02-16T15:46:54.4009444Z LTS
+2025-02-16T15:46:54.4009981Z ##[endgroup]
+2025-02-16T15:46:54.4010596Z ##[group]Runner Image
+2025-02-16T15:46:54.4011271Z Image: ubuntu-24.04
+2025-02-16T15:46:54.4011865Z Version: 20250209.1.0
+2025-02-16T15:46:54.4013104Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250209.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-02-16T15:46:54.4014829Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250209.1
+2025-02-16T15:46:54.4015915Z ##[endgroup]
+2025-02-16T15:46:54.4016567Z ##[group]Runner Image Provisioner
+2025-02-16T15:46:54.4017256Z 2.0.422.1
+2025-02-16T15:46:54.4018005Z ##[endgroup]
+2025-02-16T15:46:54.4019389Z ##[group]GITHUB_TOKEN Permissions
+2025-02-16T15:46:54.4021269Z Contents: read
+2025-02-16T15:46:54.4022039Z Metadata: read
+2025-02-16T15:46:54.4022599Z Packages: read
+2025-02-16T15:46:54.4023521Z ##[endgroup]
+2025-02-16T15:46:54.4026386Z Secret source: Actions
+2025-02-16T15:46:54.4027143Z Prepare workflow directory
+2025-02-16T15:46:54.4345021Z Prepare all required actions
+2025-02-16T15:46:54.4384033Z Getting action download info
+2025-02-16T15:46:54.6399039Z ##[group]Download immutable action package 'actions/checkout@v4'
+2025-02-16T15:46:54.6400215Z Version: 4.2.2
+2025-02-16T15:46:54.6401276Z Digest: sha256:ccb2698953eaebd21c7bf6268a94f9c26518a7e38e27e0b83c1fe1ad049819b1
+2025-02-16T15:46:54.6402696Z Source commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683
+2025-02-16T15:46:54.6403537Z ##[endgroup]
+2025-02-16T15:46:54.7214555Z Download action repository 'mikefarah/yq@v4' (SHA:8bf425b4d1344db7cd469a8d10a390876e0c77fd)
+2025-02-16T15:46:54.9478898Z Download action repository 'TinyTapeout/tt-gds-action@tt10' (SHA:e69ca5538a6a8ff9f7d327766a1d336285e3ee42)
+2025-02-16T15:46:55.2031644Z Getting action download info
+2025-02-16T15:46:55.3448965Z ##[group]Download immutable action package 'actions/upload-artifact@v4'
+2025-02-16T15:46:55.3450420Z Version: 4.6.0
+2025-02-16T15:46:55.3451693Z Digest: sha256:bf85474c8423f9cd48bd2caf3ce5adb1711e2dfdb055b040bd36b044e4290329
+2025-02-16T15:46:55.3453432Z Source commit SHA: 65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08
+2025-02-16T15:46:55.3454569Z ##[endgroup]
+2025-02-16T15:46:55.4599678Z Download action repository 'awalsh128/cache-apt-pkgs-action@v1.4.3' (SHA:5902b33ae29014e6ca012c5d8025d4346556bd40)
+2025-02-16T15:46:55.6779592Z ##[group]Download immutable action package 'actions/setup-python@v5'
+2025-02-16T15:46:55.6780524Z Version: 5.4.0
+2025-02-16T15:46:55.6781318Z Digest: sha256:6003df952c8106bcd378d2ba997eef202da924317a57269dfa72449b135adb7f
+2025-02-16T15:46:55.6782378Z Source commit SHA: 42375524e23c412d93fb67b49958b491fce71c38
+2025-02-16T15:46:55.6783116Z ##[endgroup]
+2025-02-16T15:46:55.8854826Z Getting action download info
+2025-02-16T15:46:56.0190789Z ##[group]Download immutable action package 'actions/cache@v4'
+2025-02-16T15:46:56.0192126Z Version: 4.2.0
+2025-02-16T15:46:56.0193387Z Digest: sha256:5bc11090595acbf82dbfb02747bf0bfd91544e869357fd3ac0eb41f509632110
+2025-02-16T15:46:56.0195083Z Source commit SHA: 1bd1e32a3bdc45362d1e726936510720a7c30a57
+2025-02-16T15:46:56.0196272Z ##[endgroup]
+2025-02-16T15:46:56.2283587Z Complete job name: gds
