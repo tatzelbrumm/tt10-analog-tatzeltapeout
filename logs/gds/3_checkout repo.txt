@@ -1,0 +1,84 @@
+﻿2025-02-16T18:16:31.4761348Z ##[group]Run actions/checkout@v4
+2025-02-16T18:16:31.4761940Z with:
+2025-02-16T18:16:31.4762142Z   submodules: recursive
+2025-02-16T18:16:31.4762413Z   repository: tatzelbrumm/tt10-analog-tatzeltapeout
+2025-02-16T18:16:31.4762866Z   token: ***
+2025-02-16T18:16:31.4763056Z   ssh-strict: true
+2025-02-16T18:16:31.4763245Z   ssh-user: git
+2025-02-16T18:16:31.4763444Z   persist-credentials: true
+2025-02-16T18:16:31.4763680Z   clean: true
+2025-02-16T18:16:31.4763921Z   sparse-checkout-cone-mode: true
+2025-02-16T18:16:31.4764159Z   fetch-depth: 1
+2025-02-16T18:16:31.4764348Z   fetch-tags: false
+2025-02-16T18:16:31.4764535Z   show-progress: true
+2025-02-16T18:16:31.4764741Z   lfs: false
+2025-02-16T18:16:31.4764923Z   set-safe-directory: true
+2025-02-16T18:16:31.4765322Z ##[endgroup]
+2025-02-16T18:16:31.6704770Z Syncing repository: tatzelbrumm/tt10-analog-tatzeltapeout
+2025-02-16T18:16:31.6706112Z ##[group]Getting Git version info
+2025-02-16T18:16:31.6706711Z Working directory is '/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout'
+2025-02-16T18:16:31.6707870Z [command]/usr/bin/git version
+2025-02-16T18:16:31.6754518Z git version 2.48.1
+2025-02-16T18:16:31.6781746Z ##[endgroup]
+2025-02-16T18:16:31.6801931Z Temporarily overriding HOME='/home/runner/work/_temp/7e8237b5-b2af-4385-a3f3-ee5f9c07f54c' before making global git config changes
+2025-02-16T18:16:31.6803203Z Adding repository directory to the temporary git global config as a safe directory
+2025-02-16T18:16:31.6807347Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout
+2025-02-16T18:16:31.6842711Z Deleting the contents of '/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout'
+2025-02-16T18:16:31.6846011Z ##[group]Initializing the repository
+2025-02-16T18:16:31.6850025Z [command]/usr/bin/git init /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout
+2025-02-16T18:16:31.6914504Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-02-16T18:16:31.6915357Z hint: is subject to change. To configure the initial branch name to use in all
+2025-02-16T18:16:31.6915850Z hint: of your new repositories, which will suppress this warning, call:
+2025-02-16T18:16:31.6916194Z hint:
+2025-02-16T18:16:31.6916439Z hint: 	git config --global init.defaultBranch <name>
+2025-02-16T18:16:31.6916819Z hint:
+2025-02-16T18:16:31.6917085Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-02-16T18:16:31.6917527Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-02-16T18:16:31.6917874Z hint:
+2025-02-16T18:16:31.6918289Z hint: 	git branch -m <name>
+2025-02-16T18:16:31.6919789Z Initialized empty Git repository in /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/.git/
+2025-02-16T18:16:31.6930852Z [command]/usr/bin/git remote add origin https://github.com/tatzelbrumm/tt10-analog-tatzeltapeout
+2025-02-16T18:16:31.6962958Z ##[endgroup]
+2025-02-16T18:16:31.6963556Z ##[group]Disabling automatic garbage collection
+2025-02-16T18:16:31.6967542Z [command]/usr/bin/git config --local gc.auto 0
+2025-02-16T18:16:31.6996719Z ##[endgroup]
+2025-02-16T18:16:31.6997280Z ##[group]Setting up auth
+2025-02-16T18:16:31.7004314Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-02-16T18:16:31.7034949Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-02-16T18:16:31.7318579Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-02-16T18:16:31.7347980Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-02-16T18:16:31.7574527Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-02-16T18:16:31.7633938Z ##[endgroup]
+2025-02-16T18:16:31.7634664Z ##[group]Fetching the repository
+2025-02-16T18:16:31.7642974Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +29e773f2075ec540edba80ef51cab0174657d4cb:refs/remotes/origin/main
+2025-02-16T18:16:32.2555548Z From https://github.com/tatzelbrumm/tt10-analog-tatzeltapeout
+2025-02-16T18:16:32.2558007Z  * [new ref]         29e773f2075ec540edba80ef51cab0174657d4cb -> origin/main
+2025-02-16T18:16:32.2583656Z ##[endgroup]
+2025-02-16T18:16:32.2584270Z ##[group]Determining the checkout info
+2025-02-16T18:16:32.2586745Z ##[endgroup]
+2025-02-16T18:16:32.2592626Z [command]/usr/bin/git sparse-checkout disable
+2025-02-16T18:16:32.2679674Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-02-16T18:16:32.2707878Z ##[group]Checking out the ref
+2025-02-16T18:16:32.2712284Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-02-16T18:16:32.2779939Z Switched to a new branch 'main'
+2025-02-16T18:16:32.2783283Z branch 'main' set up to track 'origin/main'.
+2025-02-16T18:16:32.2788440Z ##[endgroup]
+2025-02-16T18:16:32.2789050Z ##[group]Setting up auth for fetching submodules
+2025-02-16T18:16:32.2795369Z [command]/usr/bin/git config --global http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-02-16T18:16:32.2831237Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+2025-02-16T18:16:32.2862218Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+2025-02-16T18:16:32.2893199Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf org-1518649@github.com:
+2025-02-16T18:16:32.2918799Z ##[endgroup]
+2025-02-16T18:16:32.2919380Z ##[group]Fetching submodules
+2025-02-16T18:16:32.2923477Z [command]/usr/bin/git submodule sync --recursive
+2025-02-16T18:16:32.3155003Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+2025-02-16T18:16:32.3385904Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+2025-02-16T18:16:32.3614641Z ##[endgroup]
+2025-02-16T18:16:32.3615056Z ##[group]Persisting credentials for submodules
+2025-02-16T18:16:32.3621241Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'url\.https\:\/\/github\.com\/\.insteadOf' && git config --local --unset-all 'url.https://github.com/.insteadOf' || :"
+2025-02-16T18:16:32.3849601Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local 'http.https://github.com/.extraheader' 'AUTHORIZATION: basic ***' && git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2025-02-16T18:16:32.4078843Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'git@github.com:'
+2025-02-16T18:16:32.4305249Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'org-1518649@github.com:'
+2025-02-16T18:16:32.4528311Z ##[endgroup]
+2025-02-16T18:16:32.4565658Z [command]/usr/bin/git log -1 --format=%H
+2025-02-16T18:16:32.4587961Z 29e773f2075ec540edba80ef51cab0174657d4cb
