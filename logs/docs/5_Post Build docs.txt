@@ -1,13 +1,15 @@
-﻿2025-02-17T03:17:03.0274181Z Post job cleanup.
-2025-02-17T03:17:03.0334907Z Post job cleanup.
-2025-02-17T03:17:03.1282763Z [command]/usr/bin/git version
-2025-02-17T03:17:03.1319167Z git version 2.48.1
-2025-02-17T03:17:03.1361313Z Temporarily overriding HOME='/home/runner/work/_temp/dbe8d2d0-7b22-403c-9f44-5d02e8e735d2' before making global git config changes
-2025-02-17T03:17:03.1362274Z Adding repository directory to the temporary git global config as a safe directory
-2025-02-17T03:17:03.1374371Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt
-2025-02-17T03:17:03.1411134Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
-2025-02-17T03:17:03.1444747Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
-2025-02-17T03:17:03.1681934Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-2025-02-17T03:17:03.1703556Z http.https://github.com/.extraheader
-2025-02-17T03:17:03.1716532Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
-2025-02-17T03:17:03.1748746Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+﻿2025-02-17T05:24:14.4468743Z Post job cleanup.
+2025-02-17T05:24:14.4516186Z Post job cleanup.
+2025-02-17T05:24:14.6069398Z Cache hit occurred on the primary key setup-python-Linux-x64-24.04-Ubuntu-python-3.11.11-pip-e8de825a00f961a0a99504e206c71b458cd3b0023a470958a6778409995c069a, not saving cache.
+2025-02-17T05:24:14.6159079Z Post job cleanup.
+2025-02-17T05:24:14.7133787Z [command]/usr/bin/git version
+2025-02-17T05:24:14.7173357Z git version 2.48.1
+2025-02-17T05:24:14.7215700Z Temporarily overriding HOME='/home/runner/work/_temp/657a725a-c558-4c70-ab72-7c8bd08cd818' before making global git config changes
+2025-02-17T05:24:14.7217034Z Adding repository directory to the temporary git global config as a safe directory
+2025-02-17T05:24:14.7228541Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt
+2025-02-17T05:24:14.7264232Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-02-17T05:24:14.7297108Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-02-17T05:24:14.7539954Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-02-17T05:24:14.7562051Z http.https://github.com/.extraheader
+2025-02-17T05:24:14.7574437Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-02-17T05:24:14.7605448Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"

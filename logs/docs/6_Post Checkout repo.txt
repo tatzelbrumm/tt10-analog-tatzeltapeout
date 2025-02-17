@@ -1,12 +1,12 @@
-﻿2025-02-17T03:17:03.2122092Z Post job cleanup.
-2025-02-17T03:17:03.3102545Z [command]/usr/bin/git version
-2025-02-17T03:17:03.3145052Z git version 2.48.1
-2025-02-17T03:17:03.3190668Z Temporarily overriding HOME='/home/runner/work/_temp/2c7df650-222e-4c52-b81b-2387da306353' before making global git config changes
-2025-02-17T03:17:03.3192027Z Adding repository directory to the temporary git global config as a safe directory
-2025-02-17T03:17:03.3207687Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout
-2025-02-17T03:17:03.3252338Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
-2025-02-17T03:17:03.3294412Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
-2025-02-17T03:17:03.3535828Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-2025-02-17T03:17:03.3559828Z http.https://github.com/.extraheader
-2025-02-17T03:17:03.3573430Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
-2025-02-17T03:17:03.3607251Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+﻿2025-02-17T05:24:14.7960033Z Post job cleanup.
+2025-02-17T05:24:14.8887962Z [command]/usr/bin/git version
+2025-02-17T05:24:14.8924614Z git version 2.48.1
+2025-02-17T05:24:14.8969220Z Temporarily overriding HOME='/home/runner/work/_temp/54cb1d5a-0853-4100-a7f4-e36ad1bc6118' before making global git config changes
+2025-02-17T05:24:14.8970556Z Adding repository directory to the temporary git global config as a safe directory
+2025-02-17T05:24:14.8976173Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout
+2025-02-17T05:24:14.9015141Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-02-17T05:24:14.9048771Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-02-17T05:24:14.9287478Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-02-17T05:24:14.9308778Z http.https://github.com/.extraheader
+2025-02-17T05:24:14.9321362Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-02-17T05:24:14.9353181Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
