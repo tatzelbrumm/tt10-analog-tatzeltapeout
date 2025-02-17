@@ -1,0 +1,57 @@
+﻿2025-02-17T03:16:07.8612054Z Current runner version: '2.322.0'
+2025-02-17T03:16:07.8640443Z ##[group]Operating System
+2025-02-17T03:16:07.8641360Z Ubuntu
+2025-02-17T03:16:07.8641889Z 24.04.1
+2025-02-17T03:16:07.8642383Z LTS
+2025-02-17T03:16:07.8643049Z ##[endgroup]
+2025-02-17T03:16:07.8643876Z ##[group]Runner Image
+2025-02-17T03:16:07.8644865Z Image: ubuntu-24.04
+2025-02-17T03:16:07.8646153Z Version: 20250209.1.0
+2025-02-17T03:16:07.8648036Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250209.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-02-17T03:16:07.8650814Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250209.1
+2025-02-17T03:16:07.8652578Z ##[endgroup]
+2025-02-17T03:16:07.8653455Z ##[group]Runner Image Provisioner
+2025-02-17T03:16:07.8654609Z 2.0.422.1
+2025-02-17T03:16:07.8655762Z ##[endgroup]
+2025-02-17T03:16:07.8657443Z ##[group]GITHUB_TOKEN Permissions
+2025-02-17T03:16:07.8660463Z Metadata: read
+2025-02-17T03:16:07.8661464Z Pages: write
+2025-02-17T03:16:07.8662466Z ##[endgroup]
+2025-02-17T03:16:07.8667733Z Secret source: Actions
+2025-02-17T03:16:07.8669003Z Prepare workflow directory
+2025-02-17T03:16:07.8987707Z Prepare all required actions
+2025-02-17T03:16:07.9027596Z Getting action download info
+2025-02-17T03:16:08.0409698Z Download action repository 'TinyTapeout/tt-gds-action@tt10' (SHA:e69ca5538a6a8ff9f7d327766a1d336285e3ee42)
+2025-02-17T03:16:08.3378040Z Getting action download info
+2025-02-17T03:16:08.5436052Z ##[group]Download immutable action package 'actions/checkout@v4'
+2025-02-17T03:16:08.5437221Z Version: 4.2.2
+2025-02-17T03:16:08.5438088Z Digest: sha256:ccb2698953eaebd21c7bf6268a94f9c26518a7e38e27e0b83c1fe1ad049819b1
+2025-02-17T03:16:08.5438964Z Source commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683
+2025-02-17T03:16:08.5439564Z ##[endgroup]
+2025-02-17T03:16:08.5803543Z ##[group]Download immutable action package 'actions/setup-python@v5'
+2025-02-17T03:16:08.5804294Z Version: 5.4.0
+2025-02-17T03:16:08.5804923Z Digest: sha256:6003df952c8106bcd378d2ba997eef202da924317a57269dfa72449b135adb7f
+2025-02-17T03:16:08.5806101Z Source commit SHA: 42375524e23c412d93fb67b49958b491fce71c38
+2025-02-17T03:16:08.5806719Z ##[endgroup]
+2025-02-17T03:16:08.8316249Z ##[group]Download immutable action package 'actions/download-artifact@v4'
+2025-02-17T03:16:08.8317117Z Version: 4.1.8
+2025-02-17T03:16:08.8317817Z Digest: sha256:917365d881f32f077924458e108599cbeed2ddd6092ee5edbe0da4d4b2eba355
+2025-02-17T03:16:08.8318738Z Source commit SHA: fa0a91b85d4f404e444e00e005971372dc801d16
+2025-02-17T03:16:08.8319404Z ##[endgroup]
+2025-02-17T03:16:09.0358710Z ##[group]Download immutable action package 'actions/upload-pages-artifact@v3'
+2025-02-17T03:16:09.0359528Z Version: 3.0.1
+2025-02-17T03:16:09.0360158Z Digest: sha256:aa65de5e734350e024ca30fe125144b6260e68160e01349fc79f7e321ec35490
+2025-02-17T03:16:09.0361010Z Source commit SHA: 56afc609e74202658d3ffba0e8f6dda462b719fa
+2025-02-17T03:16:09.0361623Z ##[endgroup]
+2025-02-17T03:16:09.1563000Z ##[group]Download immutable action package 'actions/deploy-pages@v4'
+2025-02-17T03:16:09.1564060Z Version: 4.0.5
+2025-02-17T03:16:09.1564935Z Digest: sha256:6c3db754d8de3353b3b6ae87dfde94a016fd0980c05e9ccc6d9a16a9148b054e
+2025-02-17T03:16:09.1566499Z Source commit SHA: d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+2025-02-17T03:16:09.1567384Z ##[endgroup]
+2025-02-17T03:16:09.4468470Z Getting action download info
+2025-02-17T03:16:09.5612576Z ##[group]Download immutable action package 'actions/upload-artifact@v4'
+2025-02-17T03:16:09.5614066Z Version: 4.6.0
+2025-02-17T03:16:09.5615611Z Digest: sha256:bf85474c8423f9cd48bd2caf3ce5adb1711e2dfdb055b040bd36b044e4290329
+2025-02-17T03:16:09.5617513Z Source commit SHA: 65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08
+2025-02-17T03:16:09.5618744Z ##[endgroup]
+2025-02-17T03:16:09.7326740Z Complete job name: viewer

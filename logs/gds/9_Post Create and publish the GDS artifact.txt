@@ -1,1 +1,19 @@
-﻿2025-02-16T18:17:13.7613792Z Post job cleanup.
+﻿2025-02-17T03:15:57.0387446Z Post job cleanup.
+2025-02-17T03:15:57.0415135Z Post job cleanup.
+2025-02-17T03:15:57.2219216Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout --files-from manifest.txt --use-compress-program zstdmt
+2025-02-17T03:15:58.4736585Z Sent 61997056 of 109952222 (56.4%), 59.1 MBs/sec
+2025-02-17T03:15:59.4751492Z Sent 102236160 of 109952222 (93.0%), 48.7 MBs/sec
+2025-02-17T03:16:00.1144671Z Sent 109952222 of 109952222 (100.0%), 39.7 MBs/sec
+2025-02-17T03:16:00.1989255Z Cache saved with the key: setup-python-Linux-x64-24.04-Ubuntu-python-3.11.11-pip-e8de825a00f961a0a99504e206c71b458cd3b0023a470958a6778409995c069a
+2025-02-17T03:16:00.2107022Z Post job cleanup.
+2025-02-17T03:16:00.3111524Z [command]/usr/bin/git version
+2025-02-17T03:16:00.3153864Z git version 2.48.1
+2025-02-17T03:16:00.3198879Z Temporarily overriding HOME='/home/runner/work/_temp/2b257918-9beb-46da-8ff5-c54988c14950' before making global git config changes
+2025-02-17T03:16:00.3200611Z Adding repository directory to the temporary git global config as a safe directory
+2025-02-17T03:16:00.3213972Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt
+2025-02-17T03:16:00.3252149Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-02-17T03:16:00.3285346Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-02-17T03:16:00.3523011Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-02-17T03:16:00.3545417Z http.https://github.com/.extraheader
+2025-02-17T03:16:00.3557953Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-02-17T03:16:00.3589549Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"

@@ -1,0 +1,57 @@
+﻿2025-02-17T03:16:09.1312054Z Current runner version: '2.322.0'
+2025-02-17T03:16:09.1340911Z ##[group]Operating System
+2025-02-17T03:16:09.1341756Z Ubuntu
+2025-02-17T03:16:09.1342605Z 24.04.1
+2025-02-17T03:16:09.1343131Z LTS
+2025-02-17T03:16:09.1343608Z ##[endgroup]
+2025-02-17T03:16:09.1344163Z ##[group]Runner Image
+2025-02-17T03:16:09.1344728Z Image: ubuntu-24.04
+2025-02-17T03:16:09.1345235Z Version: 20250209.1.0
+2025-02-17T03:16:09.1346313Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250209.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-02-17T03:16:09.1347705Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250209.1
+2025-02-17T03:16:09.1348624Z ##[endgroup]
+2025-02-17T03:16:09.1349214Z ##[group]Runner Image Provisioner
+2025-02-17T03:16:09.1349965Z 2.0.422.1
+2025-02-17T03:16:09.1350393Z ##[endgroup]
+2025-02-17T03:16:09.1351570Z ##[group]GITHUB_TOKEN Permissions
+2025-02-17T03:16:09.1353524Z Contents: read
+2025-02-17T03:16:09.1354186Z Metadata: read
+2025-02-17T03:16:09.1354665Z Packages: read
+2025-02-17T03:16:09.1355534Z ##[endgroup]
+2025-02-17T03:16:09.1358648Z Secret source: Actions
+2025-02-17T03:16:09.1359729Z Prepare workflow directory
+2025-02-17T03:16:09.1668678Z Prepare all required actions
+2025-02-17T03:16:09.1704624Z Getting action download info
+2025-02-17T03:16:09.3510290Z Download action repository 'TinyTapeout/tt-gds-action@tt10' (SHA:e69ca5538a6a8ff9f7d327766a1d336285e3ee42)
+2025-02-17T03:16:09.9869749Z Getting action download info
+2025-02-17T03:16:10.2734669Z ##[group]Download immutable action package 'actions/checkout@v4'
+2025-02-17T03:16:10.2736058Z Version: 4.2.2
+2025-02-17T03:16:10.2737205Z Digest: sha256:ccb2698953eaebd21c7bf6268a94f9c26518a7e38e27e0b83c1fe1ad049819b1
+2025-02-17T03:16:10.2738624Z Source commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683
+2025-02-17T03:16:10.2739821Z ##[endgroup]
+2025-02-17T03:16:10.3125371Z ##[group]Download immutable action package 'actions/download-artifact@v4'
+2025-02-17T03:16:10.3127095Z Version: 4.1.8
+2025-02-17T03:16:10.3128629Z Digest: sha256:917365d881f32f077924458e108599cbeed2ddd6092ee5edbe0da4d4b2eba355
+2025-02-17T03:16:10.3130896Z Source commit SHA: fa0a91b85d4f404e444e00e005971372dc801d16
+2025-02-17T03:16:10.3132388Z ##[endgroup]
+2025-02-17T03:16:10.6831603Z ##[group]Download immutable action package 'actions/setup-python@v5'
+2025-02-17T03:16:10.6833328Z Version: 5.4.0
+2025-02-17T03:16:10.6834865Z Digest: sha256:6003df952c8106bcd378d2ba997eef202da924317a57269dfa72449b135adb7f
+2025-02-17T03:16:10.6836969Z Source commit SHA: 42375524e23c412d93fb67b49958b491fce71c38
+2025-02-17T03:16:10.6838404Z ##[endgroup]
+2025-02-17T03:16:11.0555409Z Download action repository 'TinyTapeout/volare-action@v2' (SHA:a81950837885dbfeb37f8405fe90e7d047cf3f62)
+2025-02-17T03:16:11.5867318Z Download action repository 'rikhuijzer/cache-install@v1.1.4' (SHA:50abeb521fce724fa02aa370a9a4b4ebf4fbbe79)
+2025-02-17T03:16:12.0590307Z Download action repository 'test-summary/action@v2.3' (SHA:032c8a9cec6aaa3c20228112cae6ca10a3b29336)
+2025-02-17T03:16:12.6149839Z ##[group]Download immutable action package 'actions/upload-artifact@v4'
+2025-02-17T03:16:12.6150282Z Version: 4.6.0
+2025-02-17T03:16:12.6150618Z Digest: sha256:bf85474c8423f9cd48bd2caf3ce5adb1711e2dfdb055b040bd36b044e4290329
+2025-02-17T03:16:12.6151053Z Source commit SHA: 65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08
+2025-02-17T03:16:12.6151361Z ##[endgroup]
+2025-02-17T03:16:12.7574797Z Getting action download info
+2025-02-17T03:16:12.9140723Z ##[group]Download immutable action package 'actions/cache@v4'
+2025-02-17T03:16:12.9141162Z Version: 4.2.0
+2025-02-17T03:16:12.9141526Z Digest: sha256:5bc11090595acbf82dbfb02747bf0bfd91544e869357fd3ac0eb41f509632110
+2025-02-17T03:16:12.9142021Z Source commit SHA: 1bd1e32a3bdc45362d1e726936510720a7c30a57
+2025-02-17T03:16:12.9142365Z ##[endgroup]
+2025-02-17T03:16:13.0315564Z Getting action download info
+2025-02-17T03:16:13.2648866Z Complete job name: precheck
