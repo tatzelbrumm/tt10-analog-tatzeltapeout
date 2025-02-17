@@ -10,6 +10,10 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 This might not work yet ...
+| Pin |
+| --- |
+| foo |
+| bar |
 
 ## How to test
 
