@@ -1,0 +1,12 @@
+MACRO tatzeltapeout_tile
+  CLASS BLOCK ;
+  FOREIGN tatzeltapeout_tile ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 334.880 BY 225.760 ;
+  OBS
+      LAYER met4 ;
+        RECT 132.390 1.000 152.810 1.500 ;
+  END
+END tatzeltapeout_tile
+END LIBRARY
+
