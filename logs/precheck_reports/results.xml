@@ -1,0 +1,40 @@
+<testsuites>
+  <testsuite name="Tiny Tapeout Prechecks">
+    <testcase name="Magic DRC" time="0.34" />
+    <testcase name="KLayout FEOL" time="1.71" />
+    <testcase name="KLayout BEOL" time="1.71" />
+    <testcase name="KLayout offgrid" time="1.52" />
+    <testcase name="KLayout pin label overlapping drawing" time="1.3" />
+    <testcase name="KLayout zero area" time="1.22" />
+    <testcase name="KLayout Checks" time="0.01" />
+    <testcase name="Pin check" time="0.0">
+      <error message="Some ports are missing or have wrong dimensions, see 54 LEF errors above">Traceback (most recent call last):
+  File "/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt/precheck/precheck.py", line 332, in main
+    check()
+  File "/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt/precheck/precheck.py", line 309, in &lt;lambda&gt;
+    lambda: pin_check(gds_file, lef_file, template_def, top_module, uses_3v3),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt/precheck/pin_check.py", line 410, in pin_check
+    raise PrecheckFailure(
+precheck_failure.PrecheckFailure: Some ports are missing or have wrong dimensions, see 54 LEF errors above
+</error>
+    </testcase>
+    <testcase name="Boundary check" time="0.0" />
+    <testcase name="Power pin check" time="0.0">
+      <error message="LEF doesn't contain VGND">Traceback (most recent call last):
+  File "/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt/precheck/precheck.py", line 332, in main
+    check()
+  File "/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt/precheck/precheck.py", line 312, in &lt;lambda&gt;
+    ["Power pin check", lambda: power_pin_check(verilog_file, lef_file, uses_3v3)],
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tt10-analog-tatzeltapeout/tt10-analog-tatzeltapeout/tt/precheck/precheck.py", line 156, in power_pin_check
+    raise PrecheckFailure(f"{ft} doesn't contain {pwr}")
+precheck_failure.PrecheckFailure: LEF doesn't contain VGND
+</error>
+    </testcase>
+    <testcase name="Layer check" time="0.0" />
+    <testcase name="Cell name check" time="0.0" />
+    <testcase name="urpm/nwell check" time="1.23" />
+    <testcase name="Analog pin check" time="0.0" />
+  </testsuite>
+</testsuites>
