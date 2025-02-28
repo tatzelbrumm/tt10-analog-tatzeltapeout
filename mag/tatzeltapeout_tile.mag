@@ -1,0 +1,10 @@
+magic
+tech sky130A
+timestamp 1740695003
+<< isosubstrate >>
+rect 0 0 16100 22576
+<< metal4 >>
+rect 7353 100 15371 150
+<< properties >>
+string FIXED_BBOX 0 0 16100 22576
+<< end >>
